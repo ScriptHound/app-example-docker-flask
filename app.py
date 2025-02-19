@@ -8,5 +8,5 @@ def hello():
     return "Timeweb Cloud + Docker + Flask = ❤️"
 
 if __name__ == "__main__":
-    port = 3478
+    port = 0
     app.run(debug=True,host='0.0.0.0',port=port)
